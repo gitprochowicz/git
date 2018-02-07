@@ -3,10 +3,9 @@
         <title>title</title>
     </head>
     <body>
-testttt
-        
+        testttt
+
         <?php
-        
         $conn = mysqli_connect('tomaszprochowicz.pl', 'prochowicz_git', 'Blueform', 'prochowicz_git', '3306');
         if (!$conn) {
             die('Could not connect to MySQL: ' . mysqli_connect_error());
@@ -31,20 +30,18 @@ testttt
         }
         mysqli_free_result($result);
         echo '</table>';
-        
-        
-        
-        
-        
-        
+
+
+
+
+
+
         mysqli_close($conn);
-        
-        
         ?>
-        
-        
-        
-        
-        
+
+        <div class="box">
+            <a href="index.php" class="btn btn-dark">Strona Główna</a>
+        </div>
+
     </body>
 </html>
