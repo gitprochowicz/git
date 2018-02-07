@@ -12,8 +12,8 @@ and open the template in the editor.
     </head>
     <body>
         <div class="box">
-            <a href="oferta.php">Oferta</a>
-            <a href="zamowienia.php">Zamowienia</a>
+            <a href="oferta.php" class="tile">Oferta</a>
+            <a href="zamowienia.php" class="tile">Zamowienia</a>
         </div>
         <?php
         ?>
