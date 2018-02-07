@@ -13,21 +13,17 @@
             Asortyment: <input type="text" name="asortyment" class="form-control"><br>
             Ilość :<input type="text" name="ilosc" class="form-control"><br>
             <center><button type="submit" class="btn btn-primary" >Dodaj zamówienie</button></center>
-            
+
         </div>
-        
-        
+        <div class="box2">
+            <a href="index.php" class="btn btn-dark tile">Strona Główna</a>
+        </div>
+
         <?php
-        
-        
-        
-        
-        
-        
         ?>
-        
-        
-        
-        
+
+
+
+
     </body>
 </html>

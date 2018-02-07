@@ -1,10 +1,13 @@
 <html>
     <head>
         <title>title</title>
+        <link href="bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <link href="style.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
-        testttt
-
+        <div class="box">
+            <a href="index.php" class="btn btn-dark">Strona Główna</a>
+        </div>
         <?php
         $conn = mysqli_connect('tomaszprochowicz.pl', 'prochowicz_git', 'Blueform', 'prochowicz_git', '3306');
         if (!$conn) {
@@ -38,10 +41,5 @@
 
         mysqli_close($conn);
         ?>
-
-        <div class="box">
-            <a href="index.php" class="btn btn-dark">Strona Główna</a>
-        </div>
-
     </body>
 </html>
