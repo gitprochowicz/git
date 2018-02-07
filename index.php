@@ -11,15 +11,11 @@ and open the template in the editor.
         <link href="style.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
-        dssdsda
-        Moja zmiana
+        <div class="box">
+            <a href="oferta.php">Oferta</a>
+            <a href="zamowienia.php">Zamowienia</a>
+        </div>
         <?php
-        
-        
-        
-        
-        
-        
         ?>
     </body>
 </html>
